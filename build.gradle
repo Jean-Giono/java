@@ -8,6 +8,8 @@ plugins {
     id 'maven'
     id 'checkstyle'
     id 'findbugs'
+    id 'org.sonarqube' version '2.7'
+
 }
 group = 'com.pubnub'
 
